@@ -79,28 +79,28 @@
 #include "../deps/rcheevos/src/rcheevos/rc_libretro.h"
 
 /* Define this macro to prevent cheevos from being deactivated. */
-#undef CHEEVOS_DONT_DEACTIVATE
+#define CHEEVOS_DONT_DEACTIVATE
 
 /* Define this macro to load a JSON file from disk instead of downloading
  * from retroachievements.org. */
-#undef CHEEVOS_JSON_OVERRIDE
+#define CHEEVOS_JSON_OVERRIDE
 
 /* Define this macro with a string to save the JSON file to disk with
  * that name. */
-#undef CHEEVOS_SAVE_JSON
+#define CHEEVOS_SAVE_JSON
 
 /* Define this macro to log URLs. */
-#undef CHEEVOS_LOG_URLS
+#define CHEEVOS_LOG_URLS
 
 /* Define this macro to have the password and token logged. THIS WILL DISCLOSE
  * THE USER'S PASSWORD, TAKE CARE! */
-#undef CHEEVOS_LOG_PASSWORD
+#define CHEEVOS_LOG_PASSWORD
 
 /* Define this macro to log downloaded badge images. */
-#undef CHEEVOS_LOG_BADGES
+#define CHEEVOS_LOG_BADGES
 
 /* Define this macro to capture how long it takes to generate a hash */
-#undef CHEEVOS_TIME_HASH
+#define CHEEVOS_TIME_HASH
 
 /* Number of usecs to wait between posting rich presence to the site. */
 /* Keep consistent with SERVER_PING_FREQUENCY from RAIntegration. */

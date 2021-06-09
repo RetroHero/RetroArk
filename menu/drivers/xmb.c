@@ -858,8 +858,8 @@ static void xmb_draw_icon(
    coords.tex_coord     = NULL;
    coords.lut_tex_coord = NULL;
 
-   draw.width           = icon_size;
-   draw.height          = icon_size;
+   draw.width           = icon_size  * 2.0f;
+   draw.height          = icon_size  * 2.0f;
    draw.rotation        = rotation;
    draw.scale_factor    = scale_factor;
 #if defined(VITA) || defined(WIIU)
